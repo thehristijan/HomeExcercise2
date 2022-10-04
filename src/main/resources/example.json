@@ -1,0 +1,14 @@
+{
+"streetName" : "Veteran Bulevard",
+  "streetNumber" : 123,
+  "student" : {
+    "firstName" : "John",
+    "lastName" : "Doe",
+    "index" : 100,
+    "address" : "Veteran Bulevard",
+    "email" : "any_mail@email.com",
+    "phoneNumber" : 123456,
+    "university" : "Best University",
+    "credits" : 180
+  }
+}
