@@ -7,7 +7,6 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 @JsonPropertyOrder({"firstName", "lastName", "address", "email", "phoneNumber", "university", "index", "credits"})
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Student {
-
     private String firstName;
     private String lastName;
     private int index;
@@ -98,6 +97,9 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Information about student: " + this.firstName + " " + this.lastName + ", with address: " + this.address + ", e-mail:" + this.email + " and phone number: " + this.phoneNumber + " as a student at " + this.university + " with index number: " + this.index;
+        return "Information about student: " + this.firstName +
+                " " + this.lastName + ", with address: " + this.address +
+                ", e-mail:" + this.email + " and phone number: " + this.phoneNumber +
+                " as a student at " + this.university + " with index number: " + this.index;
     }
 }

@@ -3,10 +3,10 @@ package com.homeworkexcercise2;
 public class Address {
     private String streetName;
     private int streetNumber;
-
     private Student student;
 
-    public Address(){}
+    public Address() {
+    }
 
     public Address(int streetNumber, String streetName, Student student) {
         this.streetNumber = streetNumber;
@@ -18,7 +18,8 @@ public class Address {
         return streetName;
     }
 
-    public void setStreetName(String streetName) {
+    public void setStreetName
+            (String streetName) {
         this.streetName = streetName;
     }
 
@@ -40,8 +41,6 @@ public class Address {
 
     @Override
     public String toString() {
-        return "Address to be send: " + this.streetName + "number: " + this.streetNumber + "\n"
-                + this.student.toString();
-
+        return "Address to be send: " + this.streetName + "number: " + this.streetNumber + "\n" + this.student.toString();
     }
 }
